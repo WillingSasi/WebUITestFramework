@@ -1,0 +1,24 @@
+#application.yaml
+xxxx:
+  base_url: 'https://xxxx.ai/?xxxx='
+  ip: 'xxxx'
+
+auth:
+  username: 'xxxx'
+  password: 'xxxx'
+
+browser:
+  chromedriver_path: 'chromedriver'
+  browsers_name: 'chrome'
+  remote_version: '96.0.4664.110'
+  local_version: '97.0.4692.71'
+  window_size_width: '1920'
+  window_size_height: '1080'
+  download_dir: '/root/Downloads/'
+#  remote_url: 'http://xxxx:4444/wd/hub'
+  remote_url: 'http://xxxx:4444/wd/hub'
+  headless: false
+  remote: false
+
+testframe:
+  name: 'web'
